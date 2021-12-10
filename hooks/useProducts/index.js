@@ -9,8 +9,8 @@ const fetchProducts = async (locale = 'en-US') => {
 
 const useProducts = (locale) => {
   return useQuery(QUERY_KEY_PRODUCTS, () => fetchProducts(locale), {
-    refetchOnWindowFocus: false,
-    retry: false,
+    // refetchOnWindowFocus: false,
+    // retry: false,
   });
 };
 

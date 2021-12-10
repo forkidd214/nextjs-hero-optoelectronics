@@ -9,8 +9,8 @@ const fetchHeroCarousels = async (locale) => {
 
 const useHeroCarousels = (locale) => {
   return useQuery(QUERY_KEY_HERO_CAROUSELS, () => fetchHeroCarousels(locale), {
-    refetchOnWindowFocus: false,
-    retry: false,
+    // refetchOnWindowFocus: false,
+    // retry: false,
   });
 };
 

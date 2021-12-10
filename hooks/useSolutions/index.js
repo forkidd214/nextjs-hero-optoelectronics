@@ -9,8 +9,8 @@ const fetchSolutions = async (locale = 'en-US') => {
 
 const useSolutions = (locale) => {
   return useQuery(QUERY_KEY_SOLUTIONS, () => fetchSolutions(locale), {
-    refetchOnWindowFocus: false,
-    retry: false,
+    // refetchOnWindowFocus: false,
+    // retry: false,
   });
 };
 

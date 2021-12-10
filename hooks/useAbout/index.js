@@ -9,8 +9,8 @@ const fetchAbout = async (locale = 'en-US') => {
 
 const useAbout = (locale) => {
   return useQuery(QUERY_KEY_ABOUT, () => fetchAbout(locale), {
-    refetchOnWindowFocus: false,
-    retry: false,
+    // refetchOnWindowFocus: false,
+    // retry: false,
   });
 };
 

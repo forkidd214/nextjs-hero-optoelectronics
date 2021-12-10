@@ -13,8 +13,8 @@ const fetchNavbar = async (locale = 'en-US') => {
 
 const useNavbar = (locale) => {
   return useQuery(QUERY_KEY_NAVBAR, () => fetchNavbar(locale), {
-    refetchOnWindowFocus: false,
-    retry: false,
+    // refetchOnWindowFocus: false,
+    // retry: false,
   });
 };
 

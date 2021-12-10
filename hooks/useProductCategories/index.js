@@ -12,8 +12,8 @@ const useProductCategories = (locale) => {
     QUERY_KEY_PRODUCT_CATEGORIES,
     () => fetchProductCategories(locale),
     {
-      refetchOnWindowFocus: false,
-      retry: false,
+      // refetchOnWindowFocus: false,
+      // retry: false,
     }
   );
 };
